@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+*				{margin:0; padding:0; border:0; outline:none;}
+img				{}
+body			{ background-image:url(images/bgimage.png);
+				  font-family: 'Open Sans', sans-serif}
+ul,ol			{}
+a				{text-decoration:none; color:#FFF}
+p				{}
+span			{}
+h1				{ color:#ef5350;}
+h2				{}
+h3				{}
+h4				{}
+h5				{}
+h6				{ color:#263238}
+.refresh		{clear:both}
+.midwrap		{ margin:auto; width:1024px}
+
+
+.logo			{text-align:center; min-height:30px; margin-top:15px}
+.logo1			{float:left;}
+.logo2			{float:right; color:#FFF;}
+.logo2 ul		{list-style:none}
+.logo2 ul li	{float:left; padding: 5px 10px; border-right:1px solid #FFF; line-height:5px}
+.logo2 ul li:hover	{text-decoration:underline; cursor:pointer}
+.logo2 ul li:last-child{border-right:none}
+
+.menu			{min-height:50px; margin-top:15px; background:rgba(255,255,255, 0.3); border-top:2px solid #4bb3e8}
+.menu1			{text-align:center;}
+.menu ul		{list-style:none}
+.menu ul li		{float:left; padding: 15px 32px}
+.menu ul li:hover	{border-top:2px solid #e7141a}
+
+.imgblg			{margin-top:15px}
+.imgblg	img		{width:100%}
+.imgblg1		{ position:relative}
+.imgblg2		{ position:absolute; top:230px; left:200px}
+.imgblg2 h1		{ font-size:36px; font-weight:600}
+.imgblg2 h6		{ font-size:16px; text-align:center; font-weight:600}
+
+.midd			{min-height:50px; margin-top:15px; background:rgba(255,255,255, 0.3);}
+.midd p			{padding:14px 40px; color:#FFF}
+
+.repblg			{margin-top:0px;}
+.repblg margin-right:nth-child(third)	{}
+
+.repblg1		{min-height:150px; width:32%; float:left; background-color:#ffffff; margin-top:15px; margin-right:10px}
+.repblg1a		{ float:left; min-height:120px; text-align:center; padding:13px 0px 0px 13px}
+.repblg1b		{float:right; min-height:120px;}
+.repblg1b h2	{padding:6px 0px 6px 0px; color:#ef5350; border-bottom:1px solid #ef5350; font-weight:500}
+
+.repeat			{}
+
+.liblg			{ min-height:330px; background-color:#FFF; margin-top:15px; padding: 30px 0px 0px 5px}
+.li1			{ float:left; width:30%; padding-left: 70px;}
+.li1 ul li		{ list-style:url(images/li.symbol_03.png)}
+.li1 ul li:hover	{text-decoration:underline; cursor:pointer}
+.li2			{ float:left; width:30%; margin-left:30px;}
+.li2 ul li		{ list-style:url(images/li.symbol_03.png)}
+.li2 ul li:hover	{text-decoration:underline; cursor:pointer}
+.li3			{ float:right; width:30%}
+.li3 h2			{font-weight:400; color:#ef5350}
+
+.last			{min-height:50px; text-align:center; margin-top:15px}
+.last p			{color:#FFF}
